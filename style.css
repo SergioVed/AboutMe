@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+.head{
+    height:50px;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    font-weight: 550;
+}
+.menu{
+    display: flex;
+    flex-flow: row;
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+}
+h1{
+    margin: auto;
+}
+.menu li{
+    margin: auto;
+}
+.Avatar{
+    background-image: url(https://as2.ftcdn.net/v2/jpg/04/12/21/77/1000_F_412217703_eJh9f9CcUUHgLaN3LDIZudkHGxMrcTD7.jpg);
+    height: 350px;
+    background-size: cover;
+    text-align: center;
+    padding-top: 50px;
+}
+.Avatar img{
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 140px;
+}
+.Avatar_text{
+    background-color: white;
+    display: table;
+    margin: 10px, auto;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.Avatar p{
+    margin: auto;
+    margin-top: 10px;
+}
+.content{
+    display: flex;
+    margin: 0;
+    justify-content: space-around;
+}
+.card{
+    max-width: 700px;
+    padding-top: 30px;
+}
+.Card_h2{
+    font-size: 40px;
+    text-align: center;
+}
+.Card_p{
+    font-size: 20px;
+}
+.Footer{
+    margin: 0;
+    margin-left: 130px;
+    padding-top: 20px;
+}
+.Footer_span{
+    font-size: 20px;
+}
