@@ -19,7 +19,7 @@ a{
     flex-flow: row;
     color: white;
     list-style-type: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     justify-content: space-around;
 }
@@ -39,14 +39,14 @@ h1{
 .Avatar img{
     border-radius: 50%;
     border: 2px solid black;
-    width: 140px;
+    width: 160px;
 }
 .Avatar_text{
     background-color: white;
     display: table;
     margin: 10px, auto;
     padding: 10px;
-    font-size: 20px;
+    font-size: 23px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     border-radius: 10px;
@@ -78,4 +78,48 @@ h1{
 }
 .Footer_span{
     font-size: 20px;
+}
+.content_certificates{
+    margin: 0;
+    padding-top: 50px;
+}
+.content_certificates h2{
+    text-align: center;
+    font-size: 40px;
+}
+.content_certificates_imgs{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    height: 600px;
+}
+.Footer_contacts{
+    padding-top: 50px;
+    text-align: center;
+}
+.Footer_contacts h2{
+    font-size: 40px;
+    text-align: center;
+}
+.Footer_contacts img{
+    width: 80px;
+}
+.name{
+    display: block;
+    margin-right: 0;
+}
+.menu_main li{
+    color: white;
+    padding: 50px;
+    font-size: 25px;
+}
+.menu_main{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin: 0;
+    margin-top: -40px;
+}
+.name h1{
+    font-size: 35px;
 }
