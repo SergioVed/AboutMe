@@ -76,6 +76,10 @@ h1{
 .Card_p{
     font-size: 20px;
 }
+.Card_p:hover{
+    border: 1px solid black;
+    transition: 1s;
+}
 .Footer{
     margin: 0;
     margin-left: 50px;
@@ -131,4 +135,19 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.Who_i_am:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+    cursor: pointer;
+}
+.My_projects:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+    cursor: pointer;
+}
+.My_certificates:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+    cursor: pointer;
 }
