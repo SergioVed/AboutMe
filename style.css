@@ -14,7 +14,8 @@ a{
     height:50px;
     background-color: black;
     text-align: center;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-weight: 550;
 }
 .menu{
@@ -118,7 +119,8 @@ h1{
 }
 .menu_main li{
     color: white;
-    padding: 50px;
+    padding-top: 52px;
+    padding-left: 70px;
     font-size: 25px;
     display: flex;
     justify-content: space-around;
@@ -150,4 +152,20 @@ h1{
     transform: scale(1.1);
     transition: 0.7s;
     cursor: pointer;
+}
+@media (max-width: 420px) {
+    .head{
+        height: 70px;
+        width: 100%;
+    }
+    .name h1{
+        font-size: 22px;
+    }
+    .menu_main li{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    a{
+        font-size: 17px;
+    }
 }
