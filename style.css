@@ -76,6 +76,8 @@ h1{
 }
 .Card_p{
     font-size: 20px;
+    padding: 15px;
+    text-align: left;
 }
 .Card_p:hover{
     border: 1px solid black;
@@ -83,7 +85,7 @@ h1{
 }
 .Footer{
     margin: 0;
-    margin-left: 50px;
+    margin-left: 0px;
     padding-top: 20px;
 }
 .Footer_span{
@@ -153,7 +155,7 @@ h1{
     transition: 0.7s;
     cursor: pointer;
 }
-@media (max-width: 420px) {
+@media screen and (min-device-width: 270px) and (max-device-width: 430px) {
     .head{
         height: 70px;
         width: 100%;
@@ -167,5 +169,66 @@ h1{
     }
     a{
         font-size: 17px;
+    }
+    .Card_h2{
+        font-size: 30px;
+    }
+    .Footer_contacts h2{
+        font-size: 30px;
+    }
+    .Footer_contacts img{
+        width: 60px;
+    }
+}
+@media screen and (min-device-width: 430px) and (max-device-width: 647px) {
+    .head{
+        height: 70px;
+        width: 100%;
+    }
+    .name h1{
+        font-size: 27px;
+    }
+    .menu_main li{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    a{
+        font-size: 21px;
+    }
+    .Card_h2{
+        font-size: 30px;
+    }
+    .Footer_contacts h2{
+        font-size: 30px;
+    }
+    .Footer_contacts img{
+        width: 60px;
+    }
+}
+@media screen and (min-device-width: 648px) and (max-device-width: 932px) {
+    .head{
+        height: 70px;
+        width: 100%;
+    }
+    .name h1{
+        font-size: 28px;
+        padding-top: 16px;
+    }
+    .menu_main li{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    a{
+        font-size: 20px;
+        padding-top: 6px;
+    }
+    .Card_h2{
+        font-size: 30px;
+    }
+    .Footer_contacts h2{
+        font-size: 30px;
+    }
+    .Footer_contacts img{
+        width: 60px;
     }
 }
