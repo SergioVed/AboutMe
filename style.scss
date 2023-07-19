@@ -1,0 +1,133 @@
+*{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+.header{
+    height:50px;
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 550;
+    &__nav{
+        display: flex;
+        flex-flow: row;
+        color: white;
+        list-style-type: none;
+        margin: 0 auto;
+        padding: 0;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        h1{
+            font-size: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+        }
+        &__a{
+            display: flex;
+            justify-content: space-around;
+            color: white;
+            margin: 0;
+            margin-top: -40px;
+            li{
+                color: white;
+                padding-top: 52px;
+                padding-left: 70px;
+                font-size: 25px;
+                display: flex;
+                justify-content: space-around;
+                a:hover{
+                    transform: scale(1.1);
+                    transition: 0.7s;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+.logo{
+    background-image: url(https://as2.ftcdn.net/v2/jpg/04/12/21/77/1000_F_412217703_eJh9f9CcUUHgLaN3LDIZudkHGxMrcTD7.jpg);
+    background-attachment: fixed;
+    background-position: bottom;
+    height: 350px;
+    background-size: cover;
+    text-align: center;
+    padding-top: 50px;
+    img{
+        border-radius: 50%;
+        border: 2px solid black;
+        width: 160px;
+    }
+    p{
+        background-color: white;
+        display: table;
+        margin: 10px auto;
+        padding: 10px;
+        font-size: 23px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        border-radius: 10px;
+    }
+}
+.content{
+    display: flex;
+    margin: 0;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    &__card{
+        max-width: 700px;
+        padding-top: 30px;
+        h2{
+            font-size: 40px;
+            text-align: center;
+        }
+        P{
+            font-size: 20px;
+            padding: 15px;
+            text-align: left;
+        }
+    }
+}
+.certificates{
+    margin-top: 50px;
+    h2{
+        text-align: center;
+        font-size: 35px;
+    }
+    &__img{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 70px;
+        img{
+            width: 400px;
+        }
+    }
+}
+.footer{
+    &__contacts{
+        padding-top: 50px;
+        text-align: center; 
+        h2{
+            font-size: 40px;
+            text-align: center;
+        }
+        img{
+            width: 70px;
+            margin: 0px 20px 0px 20px
+        }
+    }
+    &__copyright{
+        margin: 20px 0px 10px 20px;
+        font-size: 1.5em;
+    }
+}
